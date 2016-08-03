@@ -1,0 +1,58 @@
+{
+  "id": "c6633af4-590f-3155-2ceb-7bdf129c1049",
+  "name": "cipher-decipher-service",
+  "description": "",
+  "order": [
+    "40e73d07-cb7f-10a9-59a8-8956330530b6",
+    "0561bfcc-2933-8e24-4db5-9cdb14221ab6"
+  ],
+  "folders": [],
+  "timestamp": 1469271218483,
+  "owner": "837097",
+  "public": false,
+  "published": false,
+  "requests": [
+    {
+      "id": "0561bfcc-2933-8e24-4db5-9cdb14221ab6",
+      "headers": "Content-Type: application/json\n",
+      "url": "http://localhost:8080/instantCredit/decipher",
+      "pathVariables": {},
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "c6633af4-590f-3155-2ceb-7bdf129c1049",
+      "data": [],
+      "dataMode": "raw",
+      "name": "http://localhost:8080/instantCredit/decipher",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1469472534173,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": {},
+      "rawModeData": "{\n    \"text\" : \"⍢⍙⍙⍙⍙⍙⍙⍢⍢⍢⍢⍙⍢⍢⍢⍢⍙⍙⍢⍢⍙⍢⍢⍢⍢⍙⍢⍢⍢⍢⍢⍢⍙⍙⍢⍙⍙⍙⍢⍙⍢⍢⍢⍢⍙⍢⍙⍢⍢⍙⍙⍢⍙⍙⍢⍢⍢⍢⍢⍢⍙⍙⍙⍢⍙⍙⍙⍢⍙⍢⍢⍢⍙⍢⍢⍢⍙⍢⍢⍢⍢⍙⍢\"\n}\n"
+    },
+    {
+      "id": "40e73d07-cb7f-10a9-59a8-8956330530b6",
+      "headers": "Content-Type: application/json\n",
+      "url": "http://localhost:8080/instantCredit/cipher",
+      "pathVariables": {},
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "c6633af4-590f-3155-2ceb-7bdf129c1049",
+      "data": [],
+      "dataMode": "raw",
+      "name": "http://localhost:8080/instantCredit/cipher",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1469472502461,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": {},
+      "rawModeData": "{\n    \"text\" : \"aaaaa\"\n}"
+    }
+  ]
+}
